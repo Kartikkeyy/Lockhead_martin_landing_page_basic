@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+<link rel="stylesheet" href="landing.css">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet" type="text/css">
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<script src="https://cdnjs.cloudflare.com/aja/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/aja/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/aja/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+
+<title>Landing Page Example</title>
+</head>
+
+<!--CODING STARTS HERE -->
+
+<!-- NAV-BAR -->
+<header id="header">
+<nav id="nav-bar" class="topnav">
+  <a href="#Home" class="active button-color" class="nav-link" >Home</a>
+  <a href="#Varients" class="nav-link">Varients</a>
+  <a href="#Product" class="nav-link">Product</a>
+  <a href="#About" class="nav-link">About</a>
+
+</nav>
+
+<!-- HEAD -->
+<div id="main-container">
+<h1 id="h1">LockHead Martin<span class="logo">
+  <img id="logo" src="image\logo.png" alt="sticker logo">
+</span></h1>
+
+<section id="Home"><h2>Here we go faster than sound,stealth and precise as Eagle</h2></section>
+
+<img id="header-img"  class="space shadow" src="image\F35-LMA-800.jpg" alt="Decal on a wall">
+
+</header>
+
+<body>
+<!-- Deals -->
+<section id="Varients"><h2 class="h2">Deals</h2></section>
+
+<div class="flex-container">
+  <div class="flex-cards">
+   <ul class="card shadow">
+      <li class="header"><img class="img2" src="image\1_d4GUkExtc6rMX6eISktcAA.gif" alt="Decal on a wall"></li>
+      <li class="white_card_back">F-35 Lightning</li>
+      <li class="white_card_back"><a href="#" class="button button-color">Stealth</a></li>
+    </ul>
+</div>
+  <div class="flex-cards">
+    <ul class="card shadow">
+      <li class="header"><img class="img2"src="image\f22.gif" alt="Decal on a wall"></li>
+      <li class="white_card_back">F-22 Raptor</li>
+      <li class="white_card_back"><a href="#" class="button button-color">Advanced</a></li>
+    </ul>
+</div>
+  <div class="flex-cards">
+   <ul class="card shadow">
+      <li class="header"><img class="img2" src="image\f16.gif" alt="Decal on a wall"></li>
+      <li class="white_card_back">F16-Viper</li>
+      <li class="white_card_back"><a href="#" class="button button-color">Attack</a></li>
+    </ul>
+</div>
+</div>
+
+
+
+
+<!-- Product / VIDEO -->
+<section id="Product"><h2 class="h2">Product</h2></section>
+<h3>Afraid of the Product? <br>They are the most Lethal Machines<br>America's Pride and Nightmares for Many</h3><br>
+<div>
+<iframe id ="video" class="space shadow"  src="https://www.youtube.com/embed/MNubAcDf3Oc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<p>
+Video courtesy of
+<a href="https://www.lockheedmartin.com/" target="_blank">Lockhead Maritin</a>.
+</p>
+<br>
+</div>
+
+<!-- FORM -->
+<div class="space"><br>
+    <h3>If you want this for your country, please enter your request through mail:</h3>
+    <form id="form"  action="https://www.freecodecamp.com/email-submit">
+      <input name="email" id="email" class=" shadow"type="email" placeholder="Please, enter your e-mail"required><br>
+      <input id="submit" class="button button-color shadow" type="submit" value="submit"></input>
+    </form>
+  </div>
+
+
+<!-- END -->
+<section id="About"><h2 class="h2">About</h2></section>
+
+<div class="space">
+    <span>Coded By:</span>
+    <span class="my_signature">
+      <br>Kartikey Tiwari
+      <br>
+      <div>
+        <a id="github_kartik" href="https://github.com/Kartikkeyy" target="_blank">
+          <i class="fa fa-github" style="font-size:36px"></i>
+        </a>
+      </div>
+
+  </div>
+  <div>
+    <p>
+      <b>using: </p>
+    <i class="fa fa-html5" style="font-size:3em; color:red"></i>
+    <i class="fa fa-css3" style="font-size:3em;color:blue"></i>
+    <i class="fa fa-bold" style="font-size:3em;color:violet"></i>
+  </div>
+</div>
+
+
+</body>
+</html>
